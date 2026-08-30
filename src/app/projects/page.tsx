@@ -9,11 +9,11 @@ export const metadata: Metadata = {
 
 export default function ProjectsPage() {
   return (
-    <main id="main-content" className="py-20 sm:py-28">
+    <main id="main-content" className="py-16 sm:py-24 lg:py-28">
       <Container>
         <p className="text-sm font-semibold uppercase tracking-[0.16em] text-indigo-700">Projects</p>
-        <h1 className="mt-6 max-w-5xl text-5xl font-extrabold tracking-[-0.05em] sm:text-7xl">Work worth explaining, not just listing.</h1>
-        <div className="mt-16 grid gap-6 border-y border-black/20 py-8 md:grid-cols-12">
+        <h1 className="mt-6 max-w-5xl text-[clamp(2.5rem,11vw,3.25rem)] font-extrabold leading-[1.02] tracking-[-0.05em] sm:text-7xl">Work worth explaining, not just listing.</h1>
+        <div className="mt-12 grid gap-6 border-y border-black/20 py-7 sm:mt-16 sm:py-8 md:grid-cols-12">
           <h2 className="text-xl font-bold md:col-span-4">Case studies coming soon</h2>
           <div className="max-w-2xl md:col-span-8">
             <p className="text-lg leading-8 text-black/70">

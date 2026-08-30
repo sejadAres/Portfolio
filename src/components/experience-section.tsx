@@ -4,12 +4,12 @@ import { siteContent } from "@/content/site";
 
 export function ExperienceSection() {
   return (
-    <section className="py-20 sm:py-28">
+    <section className="py-16 sm:py-24 lg:py-28">
       <Container>
         <SectionHeading eyebrow="Experience" title="Technical support in a professional infrastructure environment." />
-        <div className="mt-14 border-t border-black/20">
+        <div className="mt-10 border-t border-black/20 sm:mt-14">
           {siteContent.experience.map((item) => (
-            <article key={`${item.role}-${item.organization}`} className="grid gap-7 border-b border-black/20 py-9 md:grid-cols-12">
+            <article key={`${item.role}-${item.organization}`} className="grid gap-6 border-b border-black/20 py-7 sm:gap-7 sm:py-9 md:grid-cols-12">
               <div className="md:col-span-4">
                 <p className="text-sm font-semibold uppercase tracking-[0.12em] text-indigo-700">{item.period}</p>
                 <h3 className="mt-3 text-2xl font-bold tracking-[-0.025em]">{item.role}</h3>
