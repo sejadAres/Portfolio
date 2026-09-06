@@ -7,13 +7,13 @@ import "./globals.css";
 const manrope = Manrope({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
-  title: { default: "Sejad Sahib — Junior Software Engineer", template: "%s — Sejad Sahib" },
+  title: { default: "Sejad Sahib — Freelance Software Engineer", template: "%s — Sejad Sahib" },
   description:
-    "Junior Software Engineer and Software Engineering student with hands-on experience across development, IT infrastructure, systems, and networking.",
+    "Freelance Software Engineer with a background in software development, IT infrastructure, systems, and networking.",
   openGraph: {
-    title: "Sejad Sahib — Junior Software Engineer",
+    title: "Sejad Sahib — Freelance Software Engineer",
     description:
-      "Software Engineering student with hands-on experience across software development, IT infrastructure, systems, and networking.",
+      "Freelance Software Engineer with a background in software development, IT infrastructure, systems, and networking.",
     type: "website",
   },
 };

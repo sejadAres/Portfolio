@@ -1,13 +1,12 @@
 export const siteContent = {
   name: "Sejad Sahib",
-  role: "Junior Software Engineer",
+  role: "Freelance Software Engineer",
   introduction:
-    "Software Engineering student with hands-on experience across software development, IT infrastructure, systems and networking.",
+    "Building software solutions with a background spanning software development, IT infrastructure, systems and networking.",
   location: "Netherlands",
   about: [
-    "I am working toward a career in Software Engineering, with a development background that includes Java, C#, ASP.NET Core, MySQL, and foundational web technologies.",
-    "Alongside that direction, I work in IT On-Site Support at OGD ict-diensten. In the Lineage client environment, I support endpoint, system, network, and CCTV infrastructure using technologies including Active Directory, Microsoft Intune, Microsoft Exchange, Meraki switching, and VLANs.",
-    "I earned my HBO-ICT Software Engineering propedeuse at The Hague University of Applied Sciences in 2021. After time away from study, I am currently preparing to resume the program and continue developing toward a professional software engineering role.",
+    "I am a Freelance Software Engineer with a technical background spanning software development and professional IT environments. I work with C#, Java, ASP.NET Core, MySQL, and web technologies.",
+    "My work in IT On-Site Support at OGD ict-diensten complements this with hands-on experience across endpoint management, systems, networking, and infrastructure troubleshooting. This broader background gives me a practical understanding of the environments in which software operates.",
   ],
   experience: [
     {
@@ -36,8 +35,7 @@ export const siteContent = {
     program: "HBO-ICT — Software Engineering",
     institution: "The Hague University of Applied Sciences",
     started: "Started 2020",
-    description:
-      "Propedeuse obtained on 15 July 2021. Currently preparing to resume the program after a period away from study.",
+    description: "HBO-ICT Software Engineering. Propedeuse obtained on 15 July 2021.",
   },
   skills: [
     { category: "Software development", items: ["Java", "C#", "ASP.NET Core", "MySQL", "HTML", "CSS", "JavaScript"] },
