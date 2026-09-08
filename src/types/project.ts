@@ -7,10 +7,13 @@ export interface ProjectLink {
 
 export interface Project {
   slug: string;
+  number: string;
   title: string;
+  category: string;
+  context: string;
   summary: string;
   fullDescription: string;
-  image: { src: string; alt: string };
+  image?: { src: string; alt: string };
   technologies: string[];
   role: string;
   problem?: string;
