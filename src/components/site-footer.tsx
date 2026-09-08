@@ -3,7 +3,7 @@ import { siteContent } from "@/content/site";
 
 export function SiteFooter() {
   return (
-    <footer className="border-t border-black/20 py-8">
+    <footer className="border-t border-black/20 py-6 sm:py-8">
       <Container className="flex flex-col gap-4 text-sm sm:flex-row sm:items-center sm:justify-between">
         <p>© {new Date().getFullYear()} {siteContent.name}</p>
         <div className="flex gap-5 font-semibold">

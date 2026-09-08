@@ -5,10 +5,10 @@ import { siteContent } from "@/content/site";
 export function EducationSection() {
   const education = siteContent.education;
   return (
-    <section className="py-16 sm:py-24 lg:py-28">
+    <section className="border-t border-black/20 py-12 sm:py-20 lg:py-24">
       <Container>
         <SectionHeading eyebrow="Education" title="Education in Software Engineering." />
-        <div className="mt-10 grid gap-6 border-y border-black/20 py-7 sm:mt-14 sm:py-8 md:grid-cols-12">
+        <div className="mt-8 grid gap-6 border-y border-black/20 py-7 sm:mt-12 sm:py-8 md:grid-cols-12">
           <div className="md:col-span-4">
             <p className="text-sm font-semibold uppercase tracking-[0.12em] text-indigo-700">{education.started}</p>
             <h3 className="mt-3 text-2xl font-bold">{education.program}</h3>

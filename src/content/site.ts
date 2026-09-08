@@ -3,6 +3,10 @@ export const siteContent = {
   role: "Freelance Software Engineer",
   introduction:
     "Building software solutions with a background spanning software development, IT infrastructure, systems and networking.",
+  homeAbout: [
+    "I am a Freelance Software Engineer with a background spanning software development and professional IT environments.",
+    "My on-site IT experience adds a practical understanding of endpoints, systems, networking, and the environments in which software operates.",
+  ],
   location: "Netherlands",
   about: [
     "I am a Freelance Software Engineer with a technical background spanning software development and professional IT environments. I work with C#, Java, ASP.NET Core, MySQL, and web technologies.",
@@ -38,7 +42,9 @@ export const siteContent = {
     description: "HBO-ICT Software Engineering. Propedeuse obtained on 15 July 2021.",
   },
   skills: [
-    { category: "Software development", items: ["Java", "C#", "ASP.NET Core", "MySQL", "HTML", "CSS", "JavaScript"] },
+    { category: "Software development", items: ["Java", "C#", "ASP.NET Core", "HTML", "CSS", "JavaScript"] },
+    { category: "Data", items: ["MySQL"] },
+    { category: "Automation", items: ["PowerShell"] },
     { category: "Systems & endpoint management", items: ["Active Directory", "Microsoft Intune", "Microsoft Exchange", "Windows Registry", "Device imaging and deployment"] },
     { category: "Networking & infrastructure", items: ["Meraki switching", "VLANs", "Switch-port management", "SMTP relay troubleshooting", "Power over Ethernet", "IP cameras and CCTV infrastructure"] },
   ],
