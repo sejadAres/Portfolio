@@ -7,9 +7,9 @@ export function CertificationsSection() {
     <section className="border-t border-black/20 py-12 sm:py-20 lg:py-24">
       <Container>
         <SectionHeading eyebrow="Certifications" title="Professional development." />
-        <ul className="mt-8 grid border-t border-black/20 sm:mt-12 sm:grid-cols-2">
+        <ul className="mt-8 grid gap-x-12 gap-y-4 border-y border-black/20 py-6 sm:mt-12 sm:grid-cols-2 sm:gap-y-5 sm:py-8">
           {siteContent.certifications.map((certification) => (
-            <li key={certification} className="border-b border-black/20 py-5 text-lg font-bold leading-7 sm:py-6 sm:odd:pr-8 sm:even:border-l sm:even:pl-8">{certification}</li>
+            <li key={certification} className="text-base font-medium leading-7 text-black/75 sm:text-lg">{certification}</li>
           ))}
         </ul>
       </Container>

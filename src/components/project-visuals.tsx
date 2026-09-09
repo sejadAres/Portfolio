@@ -38,7 +38,7 @@ export function AutomationPipeline() {
     <ol className="grid border border-black/20 sm:grid-cols-2 lg:grid-cols-7">
       {pipelineSteps.map((step, index) => (
         <li key={step} className="relative min-h-28 border-b border-black/20 p-4 last:border-b-0 sm:border-r sm:[&:nth-child(even)]:border-r-0 lg:border-b-0 lg:border-r lg:[&:nth-child(even)]:border-r lg:last:border-r-0">
-          <span className="text-xs font-bold tabular-nums text-indigo-700">{String(index + 1).padStart(2, "0")}</span><p className="mt-5 font-bold leading-tight">{step}</p>{index < pipelineSteps.length - 1 ? <span className="absolute bottom-3 right-3 text-indigo-700" aria-hidden="true">↓</span> : null}
+          <span className="text-xs font-bold tabular-nums text-indigo-700">{String(index + 1).padStart(2, "0")}</span><p className="mt-5 font-bold leading-tight">{step}</p>{index < pipelineSteps.length - 1 ? <span className="absolute bottom-3 right-3 text-indigo-700 lg:bottom-auto lg:top-1/2 lg:-translate-y-1/2" aria-hidden="true"><span className="lg:hidden">↓</span><span className="hidden lg:inline">→</span></span> : null}
         </li>
       ))}
     </ol>
